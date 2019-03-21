@@ -1,0 +1,17 @@
+{
+  "name": "reinis_portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Reinis",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Reinis Krūkliņš",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
