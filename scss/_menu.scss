@@ -92,8 +92,8 @@
         }
 
         .portrait {
-            width: 250px;
-            height: 250px;
+            width: 350px;
+            height: 350px;
             background: url('../img/portrait.png');
             border-radius: 50%;
             border: solid 3px $secondary-color;
@@ -117,9 +117,8 @@
     .nav-link {
         display: inline-block;
         position: relative;
-        font-size: 30px;
+        font-size: 36px;
         text-transform: uppercase;
-        padding: 1 rem 0;
         font-weight: 300;
         color: set-text-color($primary-color);
         text-decoration: none;
@@ -127,6 +126,7 @@
 
         &:hover {
             color: $secondary-color;
+            transform: scale(1.1);
         }
     }
 }
