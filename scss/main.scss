@@ -82,7 +82,8 @@ main {
     "job2 job2 job2"
     "job3 job3 job3"
     "job4 job4 job4"
-    "job5 job5 job5";
+    "job5 job5 job5"
+    "job6 job6 job6";
 
   .bio-image {
     grid-area: bioimage;
@@ -96,14 +97,6 @@ main {
   .bio {
     grid-area: bio;
     font-size: 1.4rem;
-
-    h3 {
-      padding-bottom: 0.5rem;
-    }
-
-    p {
-      margin: auto;
-    }
   }
 
   .job-1 {
@@ -124,6 +117,10 @@ main {
 
   .job-5 {
     grid-area: job5;
+  }
+
+  .job-6 {
+    grid-area: job6;
   }
 
   .job {
