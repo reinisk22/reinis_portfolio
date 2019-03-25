@@ -187,7 +187,7 @@ main {
     background: #15171f;
     border-bottom: #45a29e 5px solid;
     padding: 0.5rem 0.5rem 0.5rem 1.5rem;
-    font-size: 17px; }
+    font-size: 18px; }
     .about-info .job h2 {
       color: #45a29e; }
     .about-info .job h3 {
@@ -213,7 +213,7 @@ main {
   align-items: center;
   margin-top: 1rem; }
   .boxes div {
-    font-size: 2rem;
+    font-size: 1.5rem;
     border: 3px #fff solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
@@ -286,7 +286,7 @@ main {
       width: 200px;
       height: 200px; }
   .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3' 'job4' 'job5';
+    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3' 'job4' 'job5' 'job6';
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
