@@ -192,6 +192,7 @@ main {
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem;
+  font-size: 18px;
 
   &:hover {
     background: $secondary-color;
@@ -207,7 +208,7 @@ main {
 
 .btn-dark {
   @extend .btn;
-  background: darken($color: $primary-color, $amount: 50);
+  background: lighten($color: rgb(44, 43, 43), $amount: 10);
   color: #fff;
 }
 

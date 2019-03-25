@@ -6,9 +6,9 @@
   cursor: pointer;
   transition: all 0.5s ease-out; }
   .menu-btn .btn-line {
-    width: 28px;
-    height: 3px;
-    margin: 0 0 5px 0;
+    width: 38px;
+    height: 4px;
+    margin: 0 0 6px 0;
     background: #fff;
     transition: all 0.5s ease-out; }
   .menu-btn.close {
@@ -18,7 +18,7 @@
     .menu-btn.close .btn-line:nth-child(2) {
       opacity: 0; }
     .menu-btn.close .btn-line:nth-child(3) {
-      transform: rotate(-45deg) translate(7px, -6px); }
+      transform: rotate(-45deg) translate(10px, -7px); }
 
 .menu {
   position: fixed;
@@ -229,7 +229,8 @@ main {
   display: block;
   padding: 0.5rem 1rem;
   border: 0;
-  margin-bottom: 0.3rem; }
+  margin-bottom: 0.3rem;
+  font-size: 18px; }
   .btn:hover, .btn-light:hover, .btn-dark:hover {
     background: #45a29e;
     color: #000; }
@@ -239,7 +240,7 @@ main {
   color: #333; }
 
 .btn-dark {
-  background: black;
+  background: #464444;
   color: #fff; }
 
 #main-footer {
