@@ -4,13 +4,13 @@
   right: 35px;
   top: 35px;
   cursor: pointer;
-  transition: all 0.8s ease-out; }
+  transition: all 0.5s ease-out; }
   .menu-btn .btn-line {
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
     background: #fff;
-    transition: all 0.8s ease-out; }
+    transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
     .menu-btn.close .btn-line:nth-child(1) {
@@ -24,7 +24,6 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -40,31 +39,32 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #292d32;
+    background: #010101;
     list-style: none;
     transform: translate3d(0, -100%, 0);
-    transition: all 0.8s ease-out; }
+    transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #343a40;
+    background: #0b0c10;
     transform: translate3d(0, 100%, 0);
-    transition: all 0.8s ease-out; }
+    transition: all 0.5s ease-out; }
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
       width: 350px;
       height: 350px;
       background: url("../img/portrait.png");
+      background-size: cover;
       border-radius: 50%;
-      border: solid 3px #ffc107; }
+      border: solid 3px #45a29e; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
-    transition: all 0.8s ease-out; }
+    transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #ffc107; }
+      color: #45a29e; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -73,9 +73,9 @@
     font-weight: 300;
     color: #fff;
     text-decoration: none;
-    transition: all 0.8s ease-out; }
+    transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #ffc107;
+      color: #45a29e;
       transform: scale(1.1); }
 
 .nav-item:nth-child(1) {
@@ -94,7 +94,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #343a40;
+  background: #0b0c10;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -112,7 +112,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(52, 58, 64, 0.8); }
+      background: rgba(11, 12, 16, 0.9); }
 
 h1,
 h2,
@@ -128,7 +128,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(57, 63, 70, 0.5); }
+    background: rgba(15, 17, 22, 0.5); }
 
 a {
   color: white;
@@ -140,7 +140,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #ffc107; }
+  color: #45a29e; }
 
 main {
   padding: 4rem;
@@ -150,8 +150,8 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #ffc107;
-        transition: all 0.8s ease-out; }
+        color: #45a29e;
+        transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
     main#home h1 {
@@ -160,21 +160,17 @@ main {
 .about-info {
   display: grid;
   grid-gap: 20px;
-  grid-template-areas: "bioimage bio bio" "job1 job1 job1" "job2 job2 job2" "job3 job3 job3" "job4 job4 job4" "job5 job5 job5"; }
+  grid-template-areas: "bioimage bio bio" "job1 job1 job1" "job2 job2 job2" "job3 job3 job3" "job4 job4 job4" "job5 job5 job5" "job6 job6 job6"; }
   .about-info .bio-image {
     grid-area: bioimage;
     width: 250px;
     height: 250px;
     margin: auto;
     border-radius: 50%;
-    border: #ffc107 3px solid; }
+    border: #45a29e 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.4rem; }
-    .about-info .bio h3 {
-      padding-bottom: 0.5rem; }
-    .about-info .bio p {
-      margin: auto; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -185,13 +181,15 @@ main {
     grid-area: job4; }
   .about-info .job-5 {
     grid-area: job5; }
+  .about-info .job-6 {
+    grid-area: job6; }
   .about-info .job {
-    background: #3f474e;
-    border-bottom: #ffc107 5px solid;
+    background: #15171f;
+    border-bottom: #45a29e 5px solid;
     padding: 0.5rem 0.5rem 0.5rem 1.5rem;
     font-size: 17px; }
     .about-info .job h2 {
-      color: #ffc107; }
+      color: #45a29e; }
     .about-info .job h3 {
       margin: auto;
       font-size: 14px; }
@@ -205,8 +203,8 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #ffc107;
-      transition: all 0.8s ease-out; }
+      border-color: #45a29e;
+      transition: all 0.5s ease-out; }
 
 .boxes {
   display: flex;
@@ -219,10 +217,10 @@ main {
     border: 3px #fff solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
-    transition: all 0.8s ease-out; }
+    transition: all 0.5s ease-out; }
     .boxes div:hover {
       transform: scale(1.1);
-      background: #ffc107;
+      background: #45a29e;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -233,11 +231,11 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-light:hover, .btn-dark:hover {
-    background: #ffc107;
+    background: #45a29e;
     color: #000; }
 
 .btn-light {
-  background: #b2bac1;
+  background: #7880a2;
   color: #333; }
 
 .btn-dark {
@@ -247,7 +245,7 @@ main {
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #1d2124;
+  background: black;
   color: #fff;
   height: 60px; }
 
@@ -275,17 +273,18 @@ main {
     div.menu-branding.show {
       transform: translate3d(0, 0, 0); }
   .menu-nav {
-    height: 75vh;
+    height: 70vh;
     transform: translate3d(-100%, 0, 0);
     font-size: 24px; }
   .menu-branding {
-    height: 25vh;
+    height: 30vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/portrait.png");
+      background: url("../img/small_portrait.png");
       background-size: cover;
-      width: 170px;
-      height: 170px; }
+      margin-top: 30px;
+      width: 200px;
+      height: 200px; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3' 'job4' 'job5';
     grid-template-columns: 1fr; }
