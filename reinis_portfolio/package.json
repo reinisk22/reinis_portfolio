@@ -1,0 +1,20 @@
+{
+  "name": "reinis_portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Reinis",
+  "main": "index.js",
+  "homepage": "https://reiniskruklins.github.io/reinis_portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Reinis Krūkliņš",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.14.1"
+  }
+}
